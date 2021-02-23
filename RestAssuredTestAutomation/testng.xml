@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Rest Aussured Automation Test Suite">
+
+  <test name="Rest Aussured Automation Test Suite">
+  	 <classes>
+      <class name="com.qa.Tests.TC01_Get_All_Employees"/>
+      <class name="com.qa.Tests.TC02_Get_Request_Single_employee"/>
+      <class name="com.qa.Tests.TC03_Create_Request"/>
+      <class name="com.qa.Tests.TC04_Put_Request"/>
+        <class name="com.qa.Tests.TC05_Delete_Request"/>
+      </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->  
